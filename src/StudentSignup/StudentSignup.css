@@ -1,0 +1,75 @@
+/* Container styles */
+#student-signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  #student-signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  #student-signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Field styles */
+  #student-email-field,
+  #student-organization-field,
+  #student-password-field {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styles */
+  #student-signup-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Input styles */
+  #student-signup-form input[type="email"],
+  #student-signup-form input[type="text"],
+  #student-signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  #student-signup-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #student-signup-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling for focus */
+  #student-signup-form input[type="email"]:focus,
+  #student-signup-form input[type="text"]:focus,
+  #student-signup-form input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  

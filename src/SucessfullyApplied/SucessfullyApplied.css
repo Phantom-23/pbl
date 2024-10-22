@@ -1,0 +1,35 @@
+/* SuccessPage.css */
+.Postintern-success-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .Postintern-success-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  .Postintern-success-message {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .Postintern-success-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Postintern-success-button:hover {
+    background-color: #45a049;
+  }
+  

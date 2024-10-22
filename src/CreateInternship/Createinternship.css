@@ -1,0 +1,108 @@
+/* Background and Layout */
+body, .main-page {
+  background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-page {
+  padding: 0 20px;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main container */
+.Postintern-container {
+  max-width: 700px;
+  margin: 5rem auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #ffffff; /* White background inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs and Groups */
+.Postintern-input-group {
+  margin-bottom: 20px;
+}
+
+.Postintern-input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Postintern-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.Postintern-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Postintern-button:hover {
+  background-color: #ff4757;
+  box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+}
+
+.Link-applied {
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-applied {
+  display: inline;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Additional UI Elements */
+h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}

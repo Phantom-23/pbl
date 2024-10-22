@@ -1,0 +1,18 @@
+  .loginform {
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  .loginform .studentlogininput {
+    margin-bottom: 2rem; 
+  }
+  
+  .studentlogininput input {
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .studentlogininput:last-child {
+    margin-bottom: 0; 
+  }
+  
